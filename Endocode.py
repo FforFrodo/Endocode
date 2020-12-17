@@ -1,22 +1,25 @@
 from flask import Flask, jsonify, request
+import subprocess
 app = Flask(__name__)
 
 @app.route('/helloworld', methods=['GET', 'POST'])
 def helloworld():
 
     if (request.method == 'GET'):
-        name = request.args.get('name', type = str)
+        name = request.args.get('name', default = None, type = str)
+
         for i in range(len(name)-1)[::-1]:
             if name[i].isupper() and name[i+1].islower():
-                name = name[:i]+' '+name[i:]
+                name = name[:i]+' '+name[i:] 
             if name[i].isupper() and name[i-1].islower():
                 name = name[:i]+' '+name[i:]
-        b =  name.split()
-        a = ' '
-        NewName = a.join(b)
-        return 'Hello ' + (NewName)
+        b =  name.split() #Camel case string is split into a list 
+        a = ' ' #.join blank spaces
+        NewName = a.join(b) #joins listed strings into a string with spaces
+        return 'Hello ' + (NewName) #Success
+
     else:
-        return 'Hello Stranger'
+        return 'Hello Stranger' #Doesn't work
     
     #---This is from a tutorial
     #if (request.method == 'POST'):
@@ -25,10 +28,16 @@ def helloworld():
     #else:
         #return jsonify({"about":"Hello Stranger"})
 
+@app.route('/versionz', methods=['GET'])
+def get_git_revision_hash():
+    GitHash = subprocess.check_output(['git', 'rev-parse', 'HEAD'])
+    return jsonify({'Endocode':GitHash})
+
 
 @app.route('/multi/<int:num>', methods=['GET'])
 def get_multiply10(num):
     return jsonify({'result':num*10})
 
+
 if __name__ == '__main__':
-        app.run(debug=True)
+        app.run(host='0.0.0.0', port=8080, debug=True)
