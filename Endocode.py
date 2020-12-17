@@ -1,8 +1,15 @@
+#REST API with Flask for Endocode Technical challenge level 1
+#Kevin Donnelly
+
 from flask import Flask, jsonify, request
 import subprocess
 app = Flask(__name__)
 
+
+# /helloworld retunrs 'Hello Stranger' 
 # http://0.0.0.0:8080/helloworld
+
+#/helloworld?name + <StringString> returns 'Hello <String String>'
 # http://0.0.0.0:8080/helloworld?name=
 @app.route('/helloworld', methods=['GET', 'POST'])
 def helloworld():
@@ -16,8 +23,8 @@ def helloworld():
             if name[i].isupper() and name[i-1].islower():
                 name = name[:i]+' '+name[i:]
         b =  name.split() #Camel case string is split into a list 
-        a = ' ' #.join blank spaces
-        NewName = a.join(b) #joins listed strings into a string with spaces
+        a = ' ' #blank spaces for .join
+        NewName = a.join(b) #joins strings from list into 1 string with spaces
         return 'Hello ' + (NewName) #Success
 
     else:
@@ -31,18 +38,20 @@ def helloworld():
         #return jsonify({"about":"Hello Stranger"})
 
 
-# Returns JSON with Githash and name of project
+# Returns a JSON with Githash and name of the project
 # http://0.0.0.0:8080/versionz
 @app.route('/versionz', methods=['GET'])
 def get_git_revision_hash():
     GitHash = subprocess.check_output(['git', 'rev-parse', 'HEAD'])
     return jsonify({'Endocode':GitHash})
 
-#Bonus multiplication function for testing purposes
+
+#Bonus: multiplication function for testing purposes
 # http://0.0.0.0:8080/multi/
 @app.route('/multi/<int:num>', methods=['GET'])
 def get_multiply10(num):
     return jsonify({'result':num*10})
+
 
 #Runs on port http://0.0.0.0:8080/
 if __name__ == '__main__':
@@ -50,6 +59,6 @@ if __name__ == '__main__':
 
 
 # http://0.0.0.0:8080/helloworld
-# http://0.0.0.0:8080/helloworld?name=
+# http://0.0.0.0:8080/helloworld?name=  <...>
 # http://0.0.0.0:8080/versionz
 # http://0.0.0.0:8080/multi/
