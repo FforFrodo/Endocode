@@ -16,16 +16,16 @@ def hello_world():
     if request.args:
         query_name = request.args.get("name", "")
         user_name = (re.sub(r"(?<=\w)([A-Z])", r" \1", query_name)).title()
-        return 'Hello ' + (user_name)
+        return f"Hello {user_name}"
     else:
-        return 'Hello Stranger'
+        return f'Hello Stranger'
 
 # Returns a JSON with Githash and name of the project
 # http://0.0.0.0:8080/versionz
 @app.route('/versionz', methods=['GET'])
 def get_git_revision_hash():
     GitHash = subprocess.check_output(['git', 'rev-parse', 'HEAD'])
-    return jsonify({'Endocode.py':GitHash})
+    return jsonify({'Endocode':GitHash})
 
 
 #Bonus: multiplication function for testing purposes
