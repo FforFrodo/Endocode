@@ -3,6 +3,7 @@
 
 from flask import Flask, jsonify, request
 import subprocess, re
+import json
 app = Flask(__name__)
 
 
@@ -22,10 +23,11 @@ def hello_world():
 
 # Returns a JSON with Githash and name of the project
 # http://0.0.0.0:8080/versionz
-@app.route('/versionz', methods=['GET'])
+@app.route('/versionz')
 def get_git_revision_hash():
-    GitHash = subprocess.check_output(['git', 'rev-parse', 'HEAD'])
-    return jsonify({'Endocode':GitHash})
+    latest_commit_hash = subprocess.check_output(['git', 'rev-parse', 'HEAD'])
+    values = {"Endocode.py": f"{latest_commit_hash}"}
+    return json.dumps(values)
 
 
 #Bonus: multiplication function for testing purposes
