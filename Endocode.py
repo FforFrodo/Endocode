@@ -3,15 +3,22 @@ app = Flask(__name__)
 
 @app.route('/helloworld', methods=['GET', 'POST'])
 def helloworld():
-    #return "Hello Stranger"
 
-#@app.route('/', methods=['GET'])
     if (request.method == 'GET'):
         name = request.args.get('name', type = str)
-        return name
-    #else:
-        #return "Hello Stranger"
+        for i in range(len(name)-1)[::-1]:
+            if name[i].isupper() and name[i+1].islower():
+                name = name[:i]+' '+name[i:]
+            if name[i].isupper() and name[i-1].islower():
+                name = name[:i]+' '+name[i:]
+        b =  name.split()
+        a = ' '
+        NewName = a.join(b)
+        return 'Hello ' + (NewName)
+    else:
+        return 'Hello Stranger'
     
+    #---This is from a tutorial
     #if (request.method == 'POST'):
         #some_json = request.get_json()
         #return jsonify({'You sent': some_json}), 201
