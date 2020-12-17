@@ -2,6 +2,8 @@ from flask import Flask, jsonify, request
 import subprocess
 app = Flask(__name__)
 
+# http://0.0.0.0:8080/helloworld
+# http://0.0.0.0:8080/helloworld?name=
 @app.route('/helloworld', methods=['GET', 'POST'])
 def helloworld():
 
@@ -28,16 +30,26 @@ def helloworld():
     #else:
         #return jsonify({"about":"Hello Stranger"})
 
+
+# Returns JSON with Githash and name of project
+# http://0.0.0.0:8080/versionz
 @app.route('/versionz', methods=['GET'])
 def get_git_revision_hash():
     GitHash = subprocess.check_output(['git', 'rev-parse', 'HEAD'])
     return jsonify({'Endocode':GitHash})
 
-
+#Bonus multiplication function for testing purposes
+# http://0.0.0.0:8080/multi/
 @app.route('/multi/<int:num>', methods=['GET'])
 def get_multiply10(num):
     return jsonify({'result':num*10})
 
-
+#Runs on port http://0.0.0.0:8080/
 if __name__ == '__main__':
         app.run(host='0.0.0.0', port=8080, debug=True)
+
+
+# http://0.0.0.0:8080/helloworld
+# http://0.0.0.0:8080/helloworld?name=
+# http://0.0.0.0:8080/versionz
+# http://0.0.0.0:8080/multi/
