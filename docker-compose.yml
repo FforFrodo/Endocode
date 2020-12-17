@@ -6,12 +6,4 @@ services:
     volumes:
       - .:/usr/src/app
     ports:
-      - 5000:80
-  versionz:
-    build: .
-    volumes:
-      - .:/usr/src/app
-    ports:
-      - 5001:80
-    depends_on:
-      - helloworld
+      - 8080
