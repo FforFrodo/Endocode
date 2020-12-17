@@ -45,4 +45,4 @@ if __name__ == '__main__':
 # http://0.0.0.0:8080/helloworld
 # http://0.0.0.0:8080/helloworld?name=AlfredENeumann
 # http://0.0.0.0:8080/versionz
-# http://0.0.0.0:8080/multi/
+# http://0.0.0.0:8080/multi/10
