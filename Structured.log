@@ -1,0 +1,5 @@
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2021 16:41:09] "[37mGET /versionz HTTP/1.1[0m" 200 -
