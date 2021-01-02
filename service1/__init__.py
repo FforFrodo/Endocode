@@ -35,9 +35,12 @@ def hello_world():
 def get_git_revision_hash():
     try:
         latest_commit_hash = subprocess.check_output(['git', 'rev-parse', 'HEAD'])
+        
     # If not copying .git folder into docker container
     except Exception as e:
         print(e)
-    project_name = os.path.basename(os.path.dirname(sys.modules['__main__'].__file__))
+    # Returns basename from folder above __main__
+    repo_path = subprocess.check_output(['git', 'rev-parse', '--show-toplevel'])
+    project_name = os.path.basename(repo_path)
     values = {f"{project_name}": f"{latest_commit_hash}"}
     return json.dumps(values)
