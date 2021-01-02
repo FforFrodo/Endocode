@@ -38,6 +38,6 @@ def get_git_revision_hash():
     # If not copying .git folder into docker container
     except Exception as e:
         print(e)
-    project_name = os.path.dirname(os.path.abspath(__file__))
+    project_name = os.path.basename(os.path.dirname(sys.modules['__main__'].__file__))
     values = {f"{project_name}": f"{latest_commit_hash}"}
     return json.dumps(values)
