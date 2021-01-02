@@ -1,4 +1,4 @@
-#Endocode technical Challenge
+#Endocode Technical Challenge
 #Kevin Donnelly
 
 #Imports
@@ -39,8 +39,9 @@ def get_git_revision_hash():
     # If not copying .git folder into docker container
     except Exception as e:
         print(e)
-    # Returns basename from folder above __main__
+    # Returns Project name from git repo name and latest git commit hash
     repo_path = subprocess.check_output(['git', 'rev-parse', '--show-toplevel'])
     project_name = os.path.basename(repo_path)
+
     values = {f"{project_name}": f"{latest_commit_hash}"}
     return json.dumps(values)
