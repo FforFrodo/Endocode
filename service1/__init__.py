@@ -3,6 +3,7 @@
 
 #Imports
 from flask import Flask, request, json
+from decouple import config
 import logging
 import subprocess
 import re
@@ -35,13 +36,11 @@ def hello_world():
 def get_git_revision_hash():
     try:
         latest_commit_hash = subprocess.check_output(['git', 'rev-parse', 'HEAD'])
-        
-    # If not copying .git folder into docker container
+# If not copying .git folder into docker container
     except Exception as e:
         print(e)
-    # Returns Project name from git repo name and latest git commit hash
-    repo_path = subprocess.check_output(['git', 'rev-parse', '--show-toplevel'])
-    project_name = os.path.basename(repo_path)
-
+    #repo_path = subprocess.check_output(['git', 'rev-parse', '--show-toplevel'])
+    #project_name = os.path.basename(os.path.dirname(sys.modules['__main__'].__file__))
+    project_name = config('COMPOSE_PROJECT_NAME')
     values = {f"{project_name}": f"{latest_commit_hash}"}
     return json.dumps(values)

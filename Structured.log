@@ -462,3 +462,272 @@ INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloadi
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:07:04] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:07:06] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:17:24] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:18:10] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:19:17] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:19:45] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:23:05] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:24:29] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:27:47] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:41:47] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:44:59] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:46:18] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:49:17] "[35m[1mGET /versionz HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:49:18] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:49:18] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:49:18] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:49:18] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:49:18] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:49:18] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:56:01] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [02/Jan/2021 23:57:35] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 00:07:03] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 00:10:31] "[35m[1mGET /versionz HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 00:10:31] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 00:10:31] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 00:10:31] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 00:10:31] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 00:10:31] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 00:10:32] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 00:11:15] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 00:11:44] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 654-272-255
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 00:12:47] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 174-456-571
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 13:06:22] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 13:50:10] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 174-456-571
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 14:10:26] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 174-456-571
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 15:16:53] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 174-456-571
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 174-456-571
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 16:40:08] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 174-456-571
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 16:42:17] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 174-456-571
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 174-456-571
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 16:43:04] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 174-456-571
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 16:43:15] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 174-456-571
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 17:45:11] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 174-456-571
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 174-456-571
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 174-456-571
+INFO:werkzeug:172.19.0.1 - - [03/Jan/2021 18:55:56] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [03/Jan/2021 19:18:29] "[37mGET /versionz HTTP/1.1[0m" 200 -
