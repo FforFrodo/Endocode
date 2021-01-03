@@ -5,7 +5,6 @@ ARG BUILD_NUMBER
 ARG GIT_COMMIT
 ARG BUILD_VERSION
 
-LABEL maintainer="Kevin Donnelly"
 LABEL org.opencontainers.image.authors=$BUILD_SIGNATURE \
       org.opencontainers.image.source="https://github.com/FforFrodo/Endocode" \
       org.opencontainers.image.build_number=$BUILD_NUMBER \
