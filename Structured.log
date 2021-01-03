@@ -731,3 +731,31 @@ INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 209-936-835
 INFO:werkzeug:127.0.0.1 - - [03/Jan/2021 19:18:29] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835

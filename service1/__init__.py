@@ -20,7 +20,7 @@ app = Flask(__name__)
 # http://0.0.0.0:8080/helloworld
 
 # /helloworld?name=AlfredENeumann (any filtered value) returns 'Hello Alfred E Neumann'
-# http://0.0.0.0:8080/helloworld?name=
+# http://0.0.0.0:8080/helloworld?name=AlfredENeumann
 @app.route('/helloworld', methods=['GET'])
 def hello_world():
     if request.args:
@@ -36,11 +36,12 @@ def hello_world():
 def get_git_revision_hash():
     try:
         latest_commit_hash = subprocess.check_output(['git', 'rev-parse', 'HEAD'])
-# If not copying .git folder into docker container
+    # If not copying .git folder into docker container
     except Exception as e:
         print(e)
+
     #repo_path = subprocess.check_output(['git', 'rev-parse', '--show-toplevel'])
     #project_name = os.path.basename(os.path.dirname(sys.modules['__main__'].__file__))
-    project_name = config('COMPOSE_PROJECT_NAME')
+    project_name = config('COMPOSE_PROJECT_NAME') #from Enviornment variable
     values = {f"{project_name}": f"{latest_commit_hash}"}
     return json.dumps(values)
