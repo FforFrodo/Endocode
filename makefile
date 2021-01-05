@@ -30,6 +30,6 @@ stop: ## Stop running container
 rm: stop ## Stop and remove running containers
 	docker rm $(COMPOSE_PROJECT_NAME)
 
-clean: ## Clean the generated/compiles files
-	#echo "nothing to clean..."
-	docker rm Structured.log
+clean: ## Delete the log file
+	rm Structured.log
+	echo "nothing to clean..."
