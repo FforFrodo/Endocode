@@ -30,7 +30,7 @@ def hello_world():
     else:
         return f'Hello Stranger'
 
-# Returns a JSON with Githash and name of the project
+# Returns a JSON with {Project name : Commit hash}
 # http://0.0.0.0:8080/versionz
 @app.route('/versionz')
 def get_git_revision_hash():

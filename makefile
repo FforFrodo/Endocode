@@ -1,6 +1,3 @@
-#all:
-	#docker-compose up
-
 # HELP
 # This will output the help for each task
 .PHONY: help
