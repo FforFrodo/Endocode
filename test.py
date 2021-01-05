@@ -15,7 +15,7 @@ def test_helloname():
     response = app.test_client().get("http://0.0.0.0:8080/helloworld?name=AlfredENeumann")
     assert response.status_code == 200
 
-    #Test Endpoint filters a string and returns Hello + String
+    #Test Endpoint filters a string and returns Hello + <String>
     assert response.data == b'Hello Alfred E Neumann'
 
 
