@@ -3,7 +3,6 @@
 
 # HELP
 # This will output the help for each task
-# thanks to https://marmelab.com/blog/2016/02/29/auto-documented-makefile.html
 .PHONY: help
 
 help: ## This is help.
@@ -14,7 +13,7 @@ help: ## This is help.
 # DOCKER TASKS
 
 # Build the container
-build: ## Build the release and development container.
+build: ## Build the development container.
 	docker-compose build --no-cache $(COMPOSE_PROJECT_NAME)
 	docker-compose run $(COMPOSE_PROJECT_NAME) grunt build
 	docker build -t $(COMPOSE_PROJECT_NAME) .
@@ -22,16 +21,15 @@ build: ## Build the release and development container.
 run: ## Run the container after build
 	docker-compose up
 
-# Build and run the container
-up: ## Spin up the project
+up: ## Build and run the container
 	docker-compose up --build $(COMPOSE_PROJECT_NAME)
 
-stop: ## Stop running containers
+stop: ## Stop running container
 	docker stop $(COMPOSE_PROJECT_NAME)
 
 rm: stop ## Stop and remove running containers
 	docker rm $(COMPOSE_PROJECT_NAME)
 
 clean: ## Clean the generated/compiles files
-	echo "nothing to clean..."
-	#docker rm Structured.log
+	#echo "nothing to clean..."
+	docker rm Structured.log

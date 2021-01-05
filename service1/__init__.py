@@ -10,7 +10,7 @@ import re
 import os
 import sys
 
-#Log (Listening port, date, HTTP status, requests) to log file
+#New Log is generated if not found (Listening port, date, HTTP status, requests)
 logging.basicConfig(filename='Structured.log', level=logging.DEBUG)
 
 #Create an instance of Flask
@@ -36,12 +36,13 @@ def hello_world():
 def get_git_revision_hash():
     try:
         latest_commit_hash = subprocess.check_output(['git', 'rev-parse', 'HEAD'])
+        latest_commit_hash = latest_commit_hash.rstrip()
     # If not copying .git folder into docker container
     except Exception as e:
         print(e)
 
-    #repo_path = subprocess.check_output(['git', 'rev-parse', '--show-toplevel'])
-    #project_name = os.path.basename(os.path.dirname(sys.modules['__main__'].__file__))
-    project_name = config('COMPOSE_PROJECT_NAME') #from Enviornment variable
-    values = {f"{project_name}": f"{latest_commit_hash}"}
+    project_name = config('COMPOSE_PROJECT_NAME') #from Enviornment variable set in .env
+    values = {f"{project_name}": f"{latest_commit_hash.decode('utf-8')}"}
     return json.dumps(values)
+
+# python run.py

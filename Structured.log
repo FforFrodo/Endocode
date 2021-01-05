@@ -786,3 +786,143 @@ INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 298-833-964
 INFO:werkzeug:172.20.0.1 - - [03/Jan/2021 20:58:27] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 14:25:35] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 14:25:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 14:25:38] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 14:25:45] "[37mGET /helloworld HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 14:25:49] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 14:31:56] "[37mGET /helloworld HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 14:47:43] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 15:42:34] "[37mGET /helloworld HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 15:55:20] "[37mGET /helloworld HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 15:56:51] "[37mGET /helloworld HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 15:58:26] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 15:59:14] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 16:12:57] "[37mGET /helloworld HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 17:20:39] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 17:20:46] "[37mGET /helloworld HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 17:26:36] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 17:48:24] "[35m[1mGET /versionz HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 17:48:24] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 17:48:24] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 17:48:24] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 17:48:24] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 17:48:24] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 17:48:24] "[37mGET /versionz?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 17:48:37] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 17:49:19] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 17:53:41] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 18:01:53] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 18:01:56] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 18:02:09] "[37mGET /helloworld HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 18:02:12] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 18:03:08] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 18:04:11] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 18:05:08] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 18:05:11] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 18:05:22] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 18:05:26] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 18:06:36] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 18:06:52] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/Kev/Desktop/Git/Endocode/service1/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 18:07:02] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 21:26:57] "[33mGET /scrape.php?info_hash=%CB5%C7%3E%CE%3E%FFk%05%962%40¶%FF%7C%1A%F3%F8%0F HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 21:28:03] "[33mGET /scrape?info_hash=皇J%9E-%F3ac%A4%21%931%86%FA%E2%1Fc0Y HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 22:30:20] "[33mGET /scrape.php?info_hash=%CB5%C7%3E%CE%3E%FFk%05%962%40¶%FF%7C%1A%F3%F8%0F HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 22:31:06] "[33mGET /scrape?info_hash=皇J%9E-%F3ac%A4%21%931%86%FA%E2%1Fc0Y HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 22:39:13] "[33mGET /scrape?info_hash=%CC%40%E2%9B%0C%EDw%CE%E0%8A%CA%C6%CB%00%1A%FC%1B%18%B8X HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 22:58:03] "[33mGET /scrape.php?info_hash=%F7m4%BC%B8%9D.%19%BD%04%A0%C1-%EB%40p%D0Z%900 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 23:30:24] "[33mGET /scrape.php?info_hash=%CB5%C7%3E%CE%3E%FFk%05%962%40¶%FF%7C%1A%F3%F8%0F HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 23:31:25] "[33mGET /scrape?info_hash=皇J%9E-%F3ac%A4%21%931%86%FA%E2%1Fc0Y&info_hash=%CC%40%E2%9B%0C%EDw%CE%E0%8A%CA%C6%CB%00%1A%FC%1B%18%B8X HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2021 23:58:34] "[33mGET /scrape.php?info_hash=%F7m4%BC%B8%9D.%19%BD%04%A0%C1-%EB%40p%D0Z%900 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 209-936-835
+INFO:werkzeug:127.0.0.1 - - [05/Jan/2021 14:10:35] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jan/2021 14:10:38] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jan/2021 15:43:57] "[37mGET /versionz HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Jan/2021 16:11:57] "[37mGET /versionz HTTP/1.1[0m" 200 -

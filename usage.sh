@@ -15,5 +15,5 @@ make stop
 # Stop and remove the running container
 make rm
 
-# Clean the generated/compiles files
+# Delete the generated log file
 make clean
