@@ -1,2 +1,5 @@
 .DS_Store
 Structured.log
+/__pycache__
+.pytest_cache
+/service1/__pycache__
