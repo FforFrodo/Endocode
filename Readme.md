@@ -12,6 +12,7 @@ Ctrl + C stops the service
 ## Endpoint /helloworld
 
 /helloworld returns 'Hello Stranger'
+
 http://0.0.0.0:8080/helloworld
 
 **Definition**
@@ -29,6 +30,7 @@ http://0.0.0.0:8080/helloworld
 ## Endpoint /helloworld?name=
 
 /helloworld?name=AlfredENeumann (any filtered value) returns 'Hello Alfred E Neumann'
+
 http://0.0.0.0:8080/helloworld?name=AlfredENeumann
 
 **Definition**
