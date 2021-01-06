@@ -2,12 +2,14 @@
 
 ## Usage
 
-"make up builds and runs the service on default port 8080.
-Command line flags are redirected and saved to a log file.
+"make up" builds and runs the service on default Port 8080
+
+Command line flags are redirected and saved to a log file
+
 Ctrl + C stops the service
 
 
-### Endpoint /helloworld
+## Endpoint /helloworld
 
 /helloworld returns 'Hello Stranger'
 http://0.0.0.0:8080/helloworld
@@ -20,9 +22,11 @@ http://0.0.0.0:8080/helloworld
 
 - `200 OK` on success
 
-`Hello Stranger`
+```Hello Stranger```
 
-### Endpoint /helloworld?name=
+
+
+## Endpoint /helloworld?name=
 
 /helloworld?name=AlfredENeumann (any filtered value) returns 'Hello Alfred E Neumann'
 http://0.0.0.0:8080/helloworld?name=AlfredENeumann
@@ -39,11 +43,14 @@ http://0.0.0.0:8080/helloworld?name=AlfredENeumann
 
 - `200 OK` on success
 
-`Hello Alfred E Neumann`
+```Hello Alfred E Neumann```
 
-## Enpoint /versionz
+
+
+## Endpoint /versionz
 
 Returns a JSON with the project name as 'Endocode' and the latest git commit hash
+
 http://0.0.0.0:8080/versionz
 
 **Response**
