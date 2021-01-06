@@ -9,11 +9,8 @@ make run
 # Build an run the container
 make up
 
-# Stop the running container
-make stop
-
 # Stop and remove the running container
-make rm
+make stop
 
 # Delete the generated log file
 make clean
