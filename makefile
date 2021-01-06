@@ -17,15 +17,14 @@ build: ## Build the development container.
 
 run: ## Run the container after build
 	docker-compose up
+	python run.py
 
 up: ## Build and run the container
 	docker-compose up --build $(COMPOSE_PROJECT_NAME)
+	python run.py
 
-stop: ## Stop running container
-	docker stop $(COMPOSE_PROJECT_NAME)
-
-rm: stop ## Stop and remove running containers
-	docker rm $(COMPOSE_PROJECT_NAME)
+stop: ## Stop and remove running container
+	docker stop $(COMPOSE_PROJECT_NAME); docker rm $(COMPOSE_PROJECT_NAME)
 
 clean: ## Delete the log file
 	rm Structured.log

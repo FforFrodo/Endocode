@@ -12,4 +12,6 @@ RUN git clone https://github.com/FforFrodo/Endocode
 
 COPY . .
 
-CMD [ "python", "./run.py" ]
+ENTRYPOINT ["make"]
+
+CMD [ "up" ]
