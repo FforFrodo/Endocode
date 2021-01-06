@@ -20,8 +20,7 @@ http://0.0.0.0:8080/helloworld
 
 - `200 OK` on success
 
-```Hello Stranger
-```
+`Hello Stranger`
 
 ### Endpoint /helloworld?name=
 
@@ -40,8 +39,7 @@ http://0.0.0.0:8080/helloworld?name=AlfredENeumann
 
 - `200 OK` on success
 
-```Hello Alfred E Neumann
-```
+`Hello Alfred E Neumann`
 
 ## Enpoint /versionz
 
